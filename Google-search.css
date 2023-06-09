@@ -1,0 +1,184 @@
+:root {
+    --not-clicked: #2022a8;
+    --black: #000;
+    --next-to-url: #666;
+    --font-color-dark: #212529;
+    --font-color-light: #b0aebe;
+
+    --size-10: 0.625rem;
+    --size-14: 0.875rem;
+    --size-16: 1rem;
+    --size-18: 1.125rem;
+    --size-20: 1.25rem;
+    --size-30: 1.875rem;
+    --size-40: 2.5rem;
+    --size-50: 3.125rem;
+    --size-100: 6.25rem;
+    --size-150: 9.375rem;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+body { font-family: Arial, Helvetica, sans-serif;}
+
+img {
+    width: 100%;
+    max-width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+a { 
+    text-decoration: none;
+}
+
+h2 {
+    margin: 5px 0;
+    font-weight: 500;
+}
+
+p { 
+    font-size: 14px;
+    margin: 5px 0;
+    color: var(--next-to-url);
+}
+
+.top-flexbox {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.google-img-container {
+    height: 40px;
+    width: 100px;
+    margin-right: 100px;
+}
+
+.search-bar {
+    height: fit-content;
+    width: 100%;
+    border: 1px solid gainsboro;
+    padding: 5px 17px;
+    border-radius: 25px;
+    margin-right: auto;
+}
+
+.search-bar-img {
+    height: 25px; 
+    width: 25px;
+    border-radius: 50%;
+}
+
+.search-bar span img { float: right;}
+
+.navbar {
+    display: flex;
+    margin-left: 200px;
+}
+
+.navbar li div { margin-right: 15px;}
+
+.navbar-margin { margin-right: auto;}
+
+.no-img { margin-right: 25px;}
+
+.navbar li div img { 
+    height: 20px;
+    width: 20px;
+}
+
+.results-container {
+    margin-left: 215px;
+}
+
+.results-amount { margin-bottom: 20px;}
+
+.first-paragraph { margin-bottom: 40px;}
+
+.results-container div span a { 
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.chart-container { margin-bottom: 75px;}
+
+.chart-border { border: 1px solid rgb(211, 210, 210)}
+
+.chart-border-top { border-radius: 6px 6px 0 0;}
+
+.chart-border-bottom { border-radius: 0 0 6px 6px;}
+
+.chart { margin-top: 40px;}
+
+div ul .chart-border h4,  .chart-border h2 { 
+    margin: 0;
+    padding: 15px;
+}
+
+.down-arrow { 
+    display: inline-block;
+    transform: rotate(90deg);
+    font-weight: 600;
+}
+
+.feedback {
+    float: right;
+    padding-right: 20px;
+}
+
+.next-page-section {
+    padding: 50px;
+    border-top: 1px solid transparent;
+    box-shadow: -1px -5px 20px -10px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+}
+
+.btm-google-flexbox {
+    display: flex;
+    justify-content: center;
+}
+
+.next-page-section .btm-google-flexbox div {
+    width: 25px;
+    height: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+    .search-bar { max-width: 875px; }
+
+    .navbar { max-width: 850px; }
+
+    .results-container { max-width: 750px; }
+}

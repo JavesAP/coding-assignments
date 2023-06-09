@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+}
+
+.shape-flexbox {
+    display: flex;
+    justify-content: flex-end;
+    height: 1rem;
+    background-color: #5200cc;
+    padding: 10px 0;
+}
+
+.shape-flexbox img {
+    width: auto;
+    height: auto;
+    margin-right: 0.25rem;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 3rem;
+    background-color: #6d00f0;
+    padding: 0.5rem;
+}
+
+.navbar img, form img {
+    width: 1.75rem;
+    height: 1.75rem;
+    margin: 0.75rem;
+}
+
+h1 {
+    margin: 0 25% 0 3%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 0.5rem;
+}
+
+span {
+    display: flex;
+    align-items: center;
+}
+
+input {
+    padding: 17px;
+    width: 70%;
+    margin-left: 5px;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: gainsboro;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.phone-number {
+    width: 37%;
+    margin-right: 15px;
+}
+
+select {
+    padding: 17px;
+    font-size: 20px;
+    background-color: gainsboro;
+    width: 110px;
+    border-radius: 5px;
+}
+
+.label { background-color: white; }
+
+.city {
+    align-self: center;
+    margin-left: 35px;
+}
+
+.second-select-container {
+    margin-left: 58px;
+}
+
+.state {
+    width: 140px;
+    margin-right: 11px;
+}
+
+.zip {
+    width: 33%;
+}
+
+.input-type-two {
+    border: 1px solid gray;
+    background-color: white;
+}

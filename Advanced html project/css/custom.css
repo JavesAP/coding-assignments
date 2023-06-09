@@ -1,0 +1,455 @@
+.section-padding {
+    padding-top: 10px;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 100;
+}
+
+.section-background { background-image: linear-gradient(290deg, #e0e7ef 26%, #eeeeee 10%, white); }
+.section-background-bot { background-image: linear-gradient(355deg, white 23%, transparent 10%, transparent); }
+
+.project-logo {
+    width: 160px;
+    margin-right: auto;
+}
+
+nav div, 
+nav button { z-index: 10; }
+
+nav button { 
+    background-color: transparent;
+    border: none;
+    font-size: 23px;
+}
+
+.container ul li {
+    margin-right: 16px;
+    font-size: 14px;
+}
+
+[aria-controls="menu-list"] {
+    display: none;
+}
+
+.flex-row .navbar-button { margin: 0 0 0 15px}
+
+.nav-container {
+    margin-bottom: 50px;
+}
+
+.text-and-logo-wrapper { gap: 10%;}
+
+.text-and-logo-wrapper .text-container h2 {
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text-container { align-self: start; }
+.text-container h2 { margin: 20px 0 0; }
+.text-container p { margin-bottom: 30px ;}
+
+.logo-container {
+    min-width: 375px;
+    min-height: 375px;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.logo-container div,
+.black-button {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+    position: absolute;
+    box-shadow: 0px 0px 10px 0px gray;
+}
+
+.logo-container .google-a,
+.logo-container .google {
+    height: 55px;
+    width: 55px;
+    padding: 10px;
+}
+
+.google {
+    top: 0;
+    left: 13%;
+}
+
+.google-a {
+    bottom: 15%;
+    left: 35%;
+}
+
+.paypal {
+    bottom: 35%;
+    left: 5%;
+}
+
+.weave {
+    bottom: 35%;
+    right: 25%;
+}
+
+.calendar {
+    bottom: 0;
+    right: 5%;
+}
+
+.asana {
+    top: 0;
+    right: 0;
+}
+
+.atlassian {
+    top: 0;
+    left: 38%;
+}
+
+.play-button {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.text-container span { margin-left: 10px; }
+
+.section-header {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.benefits-cards-grid { 
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 210px));
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.key-benefits-cards {
+    padding: 15px;
+    line-height: 1.6;
+    margin-top: 30px;
+}
+
+.key-benefits-cards img {
+    width: 45px;
+    height: 45px;
+}
+
+.key-benefits-cards div,
+.content-structure div { margin: 18px 0; }
+
+.key-benefits-cards div span strong,
+.content-structure div span strong { font-size: var(--large-font-size); }
+
+.section-four-wrapper {
+    background-color: ghostwhite;
+    align-items: start;
+    padding: 100px 0 0 20px;
+}
+
+.section-four-wrapper div h2 { font-weight: 500;}
+
+.under-shape-text {
+    text-align: center;
+}
+
+.video-container { position: relative; }
+
+.black-button { 
+    top: 40%;
+    left: 47%;
+}
+
+.woman-three-container {
+    position: relative;
+    min-width: 425px;
+    min-height: 450px;
+}
+
+.dots {
+    width: 175px;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+}
+
+.woman-three {
+    position: absolute;
+    top: 5%;
+    right: 8%;
+    width: 325px;
+}
+
+.hubspot-review { padding: 15px; }
+
+.hubspot-review p {
+    font-size: 20px;
+    margin: 30px 0 40px 0;
+    letter-spacing: 1px;
+}
+
+.hubspot-review h4 {
+    margin: 5px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.hubspot-logo { width: 90px; }
+
+.company-logo-container h3 {
+    text-align: center;
+    color: gray;
+    letter-spacing: 1px;
+    margin: 35px 0;
+}
+
+.company-logo-wrapper {
+    justify-content: space-around;
+}
+
+.company-logo-wrapper div {
+    width: 100px;
+}
+
+.section-header span { font-size: var(--large-font-size);}
+
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(200px, 375px));
+    grid-template-rows: auto;
+    gap: 25px;
+    padding-left: 30px ;
+}
+
+.big-grid-box { align-self: stretch; }
+
+.number-underline {
+    margin: 60px auto;
+    border-bottom: solid 1px gray;
+    width: 80%;
+}
+
+.number-underline span { font-size: 20px;}
+
+.number-underline span span {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.big-grid-p,
+.big-grid-bttm { 
+    margin: 30px auto 50px;
+    width: 80%;
+}
+
+.big-grid-bttm {font-size: var(--small-font-size);}
+.big-grid-p { font-size: var(--large-font-size);}
+
+.content-structure {
+    padding: 10px;
+    line-height: 1.6;
+}
+
+.content-structure img {
+    width: 50px;
+    height: 50px;
+}
+
+.button-box { margin: 15px 0; }
+
+.hire-us-background { background-color: #1e3056;}
+
+.section-seven-wrapper {
+    gap: 75px;
+    padding: 25px 0;
+    line-height: 20px;
+}
+
+.hire-us-box, 
+.form-box { flex: 1; }
+
+.hire-us-box {
+    color: white;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+    padding: 0 25px;
+}
+
+.first-text-container {
+    width: 44%;
+    border-bottom: 1px solid;
+    padding-bottom: 15px;
+}
+
+.hire-us-box p { margin: 20px 0 30px; }
+.hire-us-box div h3 { margin: 5px 0; }
+.charlotte-container { margin-bottom: 40px; }
+
+.hire-us-box .quote { 
+    margin: 40px 0 50px;
+    color: var(--white-color);
+}
+
+.profiles-flexbox { 
+    justify-content: space-between;
+    width: 50%;
+}
+
+.small-profile,
+.medium-profile {
+    border-radius: 50%;
+}
+
+.small-profile {
+    width: 40px;
+    height: 40px;
+}
+
+.medium-profile {
+    width: 60px;
+    height: 60px;
+}
+
+.form-box {
+    background-color: white;
+    padding: 10px 0 35px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.form-box p {
+    font-weight: 500;
+    font-size: var(--large-font-size);
+    margin: 15px auto;
+    text-align: start;
+}
+
+.form-content-style {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
+    margin: 7px;
+    width: 165px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.form-box textarea,
+.form-box .policy-container,
+.form-box p { width: 350px; }
+
+.policy-container { 
+    margin: 10px auto;
+    gap: 10px;
+    align-items: flex-start;
+}
+
+.policy { 
+    text-align: start;
+    margin-bottom: 30px;
+}
+
+.policy div { margin-top: 10px; }
+
+.gray-policy,
+.blue-policy {
+    color: slategray;
+    margin-right: 25px;
+    font-weight: 500;
+    text-decoration: underline dotted;
+}
+
+.policy div .blue-policy { color: var(--links-and-buttons)}
+
+.checkbox { 
+    width: 20px;
+    height: 20px;
+}
+
+.footer-flexbox { gap: 7%;}
+
+.footer-navbar {
+    gap: 40px;
+    align-items: baseline;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.project-logo-small {
+    width: 90px;
+    margin-bottom: 25px;
+}
+
+.vertical-flex h3,
+.project-logo-small {
+    margin-top: 0;
+    letter-spacing: 1px;
+}
+
+.footer-navbar .vertical-flex { width: 125px;}
+
+.vertical-flex span {
+    margin-bottom: 7px;
+}
+
+.footer-icons {
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+
+.career-button {
+    padding: 2px;
+    font-size: 8px;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.bot-footer-left { margin-right: auto; }
+
+.footer-logos {
+    width: 27px;
+    height: 27px;
+    padding: 5px;
+    background-color: #edf2fd;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.flex-row .google-logo { background-color: dimgray; }
+
+.flex-row .us-footer-dropdown {
+    width: 156px;
+    margin: 0;
+}
+
+.us-dropdown-icons {
+    height: 15px;
+    width: 15px;
+    margin: 0 6px;
+}
+
+.spacing { margin: 40px 0; }
+
+.copyright-statement { 
+    width: 73%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.copyright { 
+    height: 10px;
+    width: 10px;
+}
+
+.last-section { margin-bottom: 25px; }

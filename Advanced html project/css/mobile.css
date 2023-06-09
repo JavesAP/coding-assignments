@@ -1,0 +1,253 @@
+@media (min-width: 1024px) { .container { max-width: 975px;} }
+
+@media (max-width: 1023px) { 
+    .container { max-width: 725px;}
+
+    .full-width { height: 9%;}
+    
+    .wrapper { flex-wrap: wrap;}
+
+    .mobile-center { 
+        justify-content: center; 
+        text-align: center;
+    }
+
+    nav .navbar-dropdown {
+        max-height: 0;
+        max-width: 0;
+        overflow: hidden;
+    }
+
+    [aria-controls="menu-list"] {
+        display: block;
+    }
+    
+    [aria-expanded="true"] ~ .navbar-dropdown {
+        flex-direction: column;
+        max-width: 100%;
+        max-height: 100%;
+        overflow: visible;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: white;
+        top: 0;
+        right: 0;
+        left: 0;
+        row-gap: 50px;
+        padding-top: 100px;
+        border-top: solid 1px gainsboro;
+        z-index: 5;
+    }
+
+    [aria-expanded="false"] .close { display: none;}
+    [aria-expanded="true"] .close { display: block;}
+
+    [aria-expanded="true"] .open { display: none;}
+
+    .text-container { 
+        margin-bottom: 50px; 
+        max-width: 400px;
+    }
+
+    .logo-container {
+        min-height: 300px;
+        width: 70%;
+    }
+
+    .benefits-cards-grid { 
+        grid-template-columns: repeat(auto-fit, minmax(150px, 320px));
+    }
+
+    .key-benefits-cards { margin: 0;}
+
+    .section-four-wrapper { padding: 0;}
+
+    .section-four-wrapper div { 
+        margin: 30px 0 0;
+        width: 100%;
+    }
+
+    .hubspot-logo { margin: 0 auto; }
+
+    .company-logo-wrapper {
+        gap: 12%;
+        justify-content: space-between;
+    }
+
+    .section-seven-wrapper { gap: 0;}
+
+    .big-grid-box {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .big-grid-p { text-align: start;}
+
+    .pricing-grid { padding: 0 10px; }
+
+    .hire-us-box,
+    .form-box { flex: auto;}
+
+    .hire-us-box { padding: 0; }
+    
+    .text-quote {
+        width: 57%;
+        margin-right: 50px;
+    }
+
+    .profiles-flexbox { width: 100%;}
+
+    .mobile-flex {
+        display: flex;
+        align-items: center;
+    }
+
+    .first-text-container { width: 100%; }
+
+    .charlotte-container { margin-bottom: 25px;}
+
+    .form-content-style {
+        padding: 10px;
+        width: 45%;
+        margin: 10px;
+    }
+
+    .form-box textarea,
+    .form-box .policy-container,
+    .form-box p { width: 630px;}
+
+    .footer-navbar { width: 50%;}
+}
+
+@media (max-width: 767px) {
+    .container { 
+        max-width: 350px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    [aria-expanded="true"] ~ .navbar-dropdown ul { 
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .full-width { height: 8%;}
+
+    .text-and-logo-wrapper .text-container h2,
+    h2 { font-size: 25px;}
+
+    .paypal { left: 11%;}
+    .calendar { right: 10%;}
+    .asana { right: 8%;}
+
+    .circle-wrapper { flex-direction: column;}
+    
+    .circle-wrapper .vertical-flex { 
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .why-front-circles { width: 25%;}
+
+    .why-front-circles line {
+        stroke-width: 0;
+    }
+
+    .vertical-flex span { margin: 0;}
+    
+    .video-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .woman-three-container {
+        min-width: 325px;
+        min-height: 350px;
+    }
+
+    .dots {
+        width: 135px;
+        bottom: 2%;
+    }
+
+    .woman-three {
+        right: 5%;
+        width: 260px;
+    }
+
+    .hubspot-review { padding: 30px 0 0;}
+
+    .company-logo-container h3 { font-size: 18px; }
+
+    .company-logo-wrapper {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .pricing-grid {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .hire-us-box {  
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 45px;
+    }
+
+    .text-quote { 
+        width: 100%;
+        margin: 0;
+    }
+
+    .form-box { width: 100%; }
+
+    .form-content-style,
+    .form-box textarea, 
+    .form-box .policy-container, 
+    .form-box p { width: 80%; }
+
+    .blue-policy { display: none;}
+
+    .project-logo-small { 
+        width: 110px;
+        margin: 0 auto;
+    }
+
+    .footer-flexbox,
+    .footer-flexbox .vertical-flex .link-text {     
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .footer-flexbox .vertical-flex { row-gap: 15px ;}
+
+    .footer-navbar { margin-top: 25px; }
+
+    .footer-navbar .vertical-flex { width: 100%;}
+
+   .spacing { 
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 18px;
+   }
+    
+    .footer-logos { margin: 0;}
+
+   .spacing .bot-footer-left, 
+   .spacing .us-footer-dropdown {
+        margin-right: 30px;
+        margin-left: 30px;
+   }
+
+    .copyright-statement { 
+        width: 100%;
+        line-height: 23px;
+    }
+}
